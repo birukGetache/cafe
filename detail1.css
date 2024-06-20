@@ -1,0 +1,100 @@
+
+   *{
+    font-family: dosis;
+
+   }
+
+   @font-face {
+    font-family: "dosis";
+    src: url("font.eot") format("embedded-opentype"),
+        url("font.woff") format("woff"),
+        url("font.woff2") format("woff2"),
+        url("fonts/Dosis.ttf") format("truetype");
+}
+
+
+  }
+   @font-face{
+  	 font-family:"detail";
+  	src:url("fonts/The Swarm.ttf"); 
+  	
+  }
+   @font-face{
+  	 font-family:"menu";
+  	src:url("fonts/NORTHLAND.ttf"); 
+  	
+  }
+     @font-face{
+     font-family:"header2";
+    src:url("fonts/Brownies.ttf"); 
+    
+  }
+    @font-face{
+     font-family:"b";
+    src:url("fonts/b.ttf"); 
+    
+  }
+  header{
+
+    color: white;
+     font-family: dosis;
+    width: 100%;
+    min-height: 70px;
+   background: linear-gradient(to right, #FF6347, #D9534F);
+    position: fixed;
+   
+  }
+  header h1{
+    margin-left: 20px;
+    padding-top: 15px;
+  }
+  header a{
+    color: white;
+    padding-top: 25px;
+    text-decoration: none;
+  }
+  header a:visited{
+    color: white;
+
+  }
+  header i {
+    margin-left: 160px;
+    font-size: 22px;
+     
+  }
+  header span{
+
+    font-size: 25px;
+    
+  }
+  
+  .food{
+    border:1px solid lightgray;
+   height: 250px;
+  width: 300px;
+  margin: 10px auto ;
+  border-radius: 5px;
+ background-image: url('photos/food1.jpeg'); /* Replace with the path or URL of your image */
+      background-size: cover; /* Cover the entire container */
+      background-position: center;
+ 
+  }
+
+
+
+  .addbutton{
+          margin-left: 10px;
+      text-decoration: none;
+       color: white;
+      border:1px solid #D9534F;
+      border-radius: 5px;
+        background-color: #D9534F;
+       padding: 5px 20px;
+       font-weight: bold;
+       width: 290px;
+       margin-bottom: 20px;
+  }
+  .addbutton:hover{
+    background-color: #D9534F;
+    color: white;
+  }

@@ -1,0 +1,128 @@
+
+   *{
+    font-family: dosis;
+
+   }
+
+ @font-face {
+    font-family: "dosis";
+    src: url("font.eot") format("embedded-opentype"),
+        url("font.woff") format("woff"),
+        url("font.woff2") format("woff2"),
+        url("fonts/Dosis.ttf") format("truetype");
+}
+
+
+  }
+   @font-face{
+  	 font-family:"detail";
+  	src:url("fonts/The Swarm.ttf"); 
+  	
+  }
+   @font-face{
+  	 font-family:"menu";
+  	src:url("fonts/NORTHLAND.ttf"); 
+  	
+  }
+     @font-face{
+     font-family:"header2";
+    src:url("fonts/Brownies.ttf"); 
+    
+  }
+    @font-face{
+     font-family:"b";
+    src:url("fonts/b.ttf"); 
+    
+  }
+  header{
+
+    color: white;
+     font-family: dosis;
+    width: 100%;
+    min-height: 70px;
+   background: linear-gradient(to right, #FF6347, #D9534F);
+    position: fixed;
+   
+  }
+  header h1{
+    margin-left: 20px;
+    padding-top: 15px;
+  }
+  header a{
+    color: white;
+    padding-top: 25px;
+    text-decoration: none;
+  }
+  header a:visited{
+    color: white;
+
+  }
+  header i {
+    margin-left: 180px;
+    font-size: 22px;
+     
+  }
+  header span{
+
+    font-size: 25px;
+    
+  }
+  .filter1{
+    position: fixed;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    width: 95%;
+    margin-left: 2%;
+    padding: 5px;
+    color: white;
+   
+
+       appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background: linear-gradient(to right, #FF6347, #D9534F);
+     
+     
+      border: none;
+      border-radius: 5px;
+  
+      cursor: pointer;
+  }
+  .food{
+    border:1px solid lightgray;
+   height: 240px;
+  width: 170px;
+  margin: 10px auto ;
+  border-radius: 5px;
+
+ 
+  }
+
+.fphoto{
+  border-radius: 5px;
+  border: 1px solid black;
+    height: 150px;
+    width: 100%;
+}
+.fphoto img {
+      width: 100%; /* Make the image fill the width of the container */
+      height: auto; /* Maintain the aspect ratio of the image */
+      display: block; /* Remove any extra spacing below the image */
+    }
+
+
+
+  .addbutton{
+          margin-left: 30px;
+      text-decoration: none;
+       color: #D9534F;
+      border:1px solid #D9534F;
+      border-radius: 5px;
+        background: none;
+       padding: 5px 20px;
+       font-weight: bold;
+  }
+  .addbutton:hover{
+    background-color: #D9534F;
+    color: white;
+  }
